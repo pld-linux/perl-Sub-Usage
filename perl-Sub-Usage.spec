@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Sub
-%define	pnam	Usage
+%define		pdir	Sub
+%define		pnam	Usage
 Summary:	Sub::Usage - issue subroutine/method usage
 Summary(pl):	Sub::Usage - wy¶wietl informacje o sposobie u¿ycia funkcji/metody
 Name:		perl-Sub-Usage
