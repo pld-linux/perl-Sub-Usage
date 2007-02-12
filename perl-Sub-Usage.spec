@@ -6,7 +6,7 @@
 %define		pdir	Sub
 %define		pnam	Usage
 Summary:	Sub::Usage - issue subroutine/method usage
-Summary(pl):	Sub::Usage - wy¶wietl informacje o sposobie u¿ycia funkcji/metody
+Summary(pl.UTF-8):   Sub::Usage - wyÅ›wietl informacje o sposobie uÅ¼ycia funkcji/metody
 Name:		perl-Sub-Usage
 Version:	0.03
 Release:	4
@@ -25,9 +25,9 @@ Sub::Usage provides functions to display usage of subroutines or methods
 from inside the stub.  Some people like to check the parameters of the
 routine.
 
-%description -l pl
-Sub::Usage udostêpnia funkcje, wy¶wietlaj±ce informacje o sposobie u¿ycia
-funkcji lub metody.  Niektórzy programi¶ci lubi± sprawdzaæ parametry
+%description -l pl.UTF-8
+Sub::Usage udostÄ™pnia funkcje, wyÅ›wietlajÄ…ce informacje o sposobie uÅ¼ycia
+funkcji lub metody.  NiektÃ³rzy programiÅ›ci lubiÄ… sprawdzaÄ‡ parametry
 procedur.
 
 %prep
