@@ -6,7 +6,7 @@
 %define		pdir	Sub
 %define		pnam	Usage
 Summary:	Sub::Usage - issue subroutine/method usage
-Summary(pl.UTF-8):   Sub::Usage - wyświetl informacje o sposobie użycia funkcji/metody
+Summary(pl.UTF-8):	Sub::Usage - wyświetl informacje o sposobie użycia funkcji/metody
 Name:		perl-Sub-Usage
 Version:	0.03
 Release:	4
