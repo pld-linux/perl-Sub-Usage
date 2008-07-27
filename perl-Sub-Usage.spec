@@ -9,7 +9,7 @@ Summary:	Sub::Usage - issue subroutine/method usage
 Summary(pl.UTF-8):	Sub::Usage - wyświetl informacje o sposobie użycia funkcji/metody
 Name:		perl-Sub-Usage
 Version:	0.03
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
