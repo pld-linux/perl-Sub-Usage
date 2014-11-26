@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Sub
 %define		pnam	Usage
+%include	/usr/lib/rpm/macros.perl
 Summary:	Sub::Usage - issue subroutine/method usage
 Summary(pl.UTF-8):	Sub::Usage - wyświetl informacje o sposobie użycia funkcji/metody
 Name:		perl-Sub-Usage
@@ -15,20 +15,21 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a65e34e3500df80386a5316b43a7b671
+URL:		http://search.cpan.org/dist/Sub-Usage/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Sub::Usage provides functions to display usage of subroutines or methods
-from inside the stub.  Some people like to check the parameters of the
-routine.
+Sub::Usage provides functions to display usage of subroutines or
+methods from inside the stub. Some people like to check the parameters
+of the routine.
 
 %description -l pl.UTF-8
-Sub::Usage udostępnia funkcje, wyświetlające informacje o sposobie użycia
-funkcji lub metody.  Niektórzy programiści lubią sprawdzać parametry
-procedur.
+Sub::Usage udostępnia funkcje, wyświetlające informacje o sposobie
+użycia funkcji lub metody. Niektórzy programiści lubią sprawdzać
+parametry procedur.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
