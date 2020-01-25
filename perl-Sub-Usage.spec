@@ -4,7 +4,6 @@
 
 %define		pdir	Sub
 %define		pnam	Usage
-%include	/usr/lib/rpm/macros.perl
 Summary:	Sub::Usage - issue subroutine/method usage
 Summary(pl.UTF-8):	Sub::Usage - wyświetl informacje o sposobie użycia funkcji/metody
 Name:		perl-Sub-Usage
